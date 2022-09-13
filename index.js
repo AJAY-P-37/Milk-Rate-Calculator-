@@ -1,4 +1,4 @@
-let arr = [22.5, 11, 21.5, 9.5, 23.5, 10, 52, 24.5]
+let arr = [22.5, 11, 21.5, 9.5, 23.5, 13.5, 52, 24.5]
 
 for (let i = 0; i < 8; i++) {
     let milkType = document.querySelector(`#milkTable > table > tbody > tr:nth-child(${i + 1}) > th:nth-child(3) > input`)
