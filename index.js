@@ -1,5 +1,4 @@
-let arr = [22.5, 11, 21.5, 9.5, 23.5, 13.5, 52, 24.5];
-arr = [];
+let arr = [];
 
 let val = document.querySelectorAll(`tbody > tr > th:nth-child(2)`);
 val.forEach((val) => {
