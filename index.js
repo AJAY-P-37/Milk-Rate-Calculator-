@@ -42,7 +42,7 @@ getMilkRate().then((milk) => {
   });
   console.log(arr);
   body.innerHTML = t;
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < milk.length; i++) {
     let milkType = document.querySelector(
       `#milkTable > table > tbody > tr:nth-child(${
         i + 1
@@ -63,7 +63,7 @@ getMilkRate().then((milk) => {
 
       let total = 0;
 
-      for (let i = 0; i < 8; i++) {
+      for (let i = 0; i < milk.length; i++) {
         let milk = document.querySelector(
           `#milkTable > table > tbody > tr:nth-child(${
             i + 1
